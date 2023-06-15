@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equi="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOOD POINT</title>
+
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <!-- bootstrap -->
+    <!-- css file link -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- desktop view -->
+    <div id="container" class="container">
+       <div id="menu">
+          <div class="brand-logo">
+            <img src="images/lofo.png" alt="logo">
+          </div>
+        <div class="menu-item">
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Your Orders</a>
+            <a href="#">Wishlist</a>
+            <a href="#">Address</a>
+            <a href="#">Help</a>
+        </div>        
+       </div>
+       <div id="food-container">
+        <div id="header">
+            <div class="add-box">
+                <i class="fa fa-map-marker your-address" id="add-address">Your Address</i>
+            </div>
+            <div class="util">
+                <i class="fa fa-search">Search</i>
+                <i class="fa fa-tags">Offers</i>
+                <i class="fa fa-cart-plus" id="cart-plus">0 items</i>
+            </div>
+        </div>
+        <div id="food-items">
+            <div id="Biriyani">
+                <p id="category-name">Biriyani</p>
+                <div id="item-card">
+                    <div id="card-top">
+                        <i class="fa fa-star" id="rating">8.3</i>
+                        <i class="fa fa-heart-o add-to-cart"></i>
+                        <img src="images/mutton biriyani.jpg" alt="">
+                        <p id="item-name">Mutton biriyani</p>
+                        <p id="item price">price:Rs.450</p>
+                    </div>
+                </div>
+                <div id="item-card">
+                    <div id="card-top">
+                            <i class="fa fa-star" id="rating">8.3</i>
+                            <i class="fa fa-heart-o add-to-cart"></i>
+                            <img src="images/masala fried biriyani.jpg" alt="">
+                            <p id="item-name">Masala fried biriyani</p>
+                            <p id="item price">price:Rs.450</p>
+                    </div>
+                </div>        
+                <div id="item-card">
+                    <div id="card-top">
+                        <i class="fa fa-star" id="rating">8.3</i>
+                        <i class="fa fa-heart-o add-to-cart"></i>
+                        <img src="images/kashmiri-biryani.jpg" alt="">
+                        <p id="item-name">Chicken pot biriyani</p>
+                         <p id="item price">price:Rs.450</p>
+                    </div>
+                </div>
+                <div id="item-card">
+                    <div id="card-top">
+                        <i class="fa fa-star" id="rating">8.3</i>
+                        <i class="fa fa-heart-o add-to-cart"></i>
+                        <img src="images/mughalai.jpg" alt="">
+                        <p id="item-name">Mughalai biriyani</p>
+                         <p id="item price">price:Rs.450</p>
+                    </div>
+                </div>
+                
+            </div>
+
+            
+            <div id="Paneer">
+                <p id="category-name">Paneer Mania</p>
+                <div id="item-card">
+                    <div id="card-top">
+                        <i class="fa fa-star" id="rating">8.3</i>
+                        <i class="fa fa-heart-o add-to-cart"></i>
+                        <img src="images/paneer biriyani.jpg" alt="">
+                        <p id="item-name">Paneer biriyani</p>
+                        <p id="item price">price:Rs.450</p>
+                    </div>
+                </div>
+                <div id="item-card">
+                    <div id="card-top">
+                        <i class="fa fa-star" id="rating">8.3</i>
+                        <i class="fa fa-heart-o add-to-cart"></i>
+                        <img src="images/paneer-butter-masala.jpg" alt="">
+                        <p id="item-name">Paneer butter masala</p>
+                        <p id="item price">price:Rs.450</p>
+                    </div>
+                </div>
+                <div id="item-card">
+                    <div id="card-top">
+                        <i class="fa fa-star" id="rating">8.3</i>
+                        <i class="fa fa-heart-o add-to-cart"></i>
+                        <img src="images/New-Style-Paneer.jpg" alt="">
+                        <p id="item-name">Paneer tikka</p>
+                        <p id="item price">price:Rs.450</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="Vegetable">
+                <p id="category-name">Pure veg dishes</p>
+                <div id="item-card">
+                    <div id="card-top">
+                        <i class="fa fa-star" id="rating">8.3</i>
+                        <i class="fa fa-heart-o add-to-cart"></i>
+                        <img src="images/vegetable curry with brown rice.jpg" alt="">
+                        <p id="item-name">vegetable curry with brown rice</p>
+                        <p id="item price">price:Rs.450</p>
+                    </div>
+                </div>
+                <div id="item-card">
+                    <div id="card-top">
+                        <i class="fa fa-star" id="rating">8.3</i>
+                        <i class="fa fa-heart-o add-to-cart"></i>
+                        <img src="images/veg biriyani.jpg" alt="">
+                        <p id="item-name">vegetable biriyani</p>
+                        <p id="item price">price:Rs.450</p>
+                    </div>
+                </div>
+                <div id="item-card">
+                    <div id="card-top">
+                        <i class="fa fa-star" id="rating">8.3</i>
+                        <i class="fa fa-heart-o add-to-cart"></i>
+                        <img src="images/nutty-three-veg-curry.jpg" alt="">
+                        <p id="item-name">vegetable curry</p>
+                        <p id="item price">price:Rs.450</p>
+                    </div>
+                </div>
+                <div id="item-card">
+                    <div id="card-top">
+                        <i class="fa fa-star" id="rating">8.3</i>
+                        <i class="fa fa-heart-o add-to-cart"></i>
+                        <img src="images/mushroom biriyani" alt="">
+                        <p id="item-name">mushroom biriyani</p>
+                        <p id="item price">price:Rs.450</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="Chinese">
+                <p id="category-name">Chinese Corner</p>
+                <div id="item-card">
+                    <div id="card-top">
+                        <i class="fa fa-star" id="rating">8.3</i>
+                        <i class="fa fa-heart-o add-to-cart"></i>
+                        <img src="images/cheese burger.jpg" alt="">
+                        <p id="item-name">cheesy burger</p>
+                        <p id="item price">price:Rs.450</p>
+                    </div>
+                </div>
+                <div id="item-card">
+                    <div id="card-top">
+                        <i class="fa fa-star" id="rating">8.3</i>
+                        <i class="fa fa-heart-o add-to-cart"></i>
+                        <img src="images/chicken roll.jpg" alt="">
+                        <p id="item-name">Chicken roll</p>
+                        <p id="item price">price:Rs.450</p>
+                    </div>
+                </div>
+                <div id="item-card">
+                    <div id="card-top">
+                        <i class="fa fa-star" id="rating">8.3</i>
+                        <i class="fa fa-heart-o add-to-cart"></i>
+                        <img src="images/chinacook(winchester).jpg" alt="">
+                        <p id="item-name">Winchester</p>
+                        <p id="item price">price:Rs.450</p>
+                    </div>
+                </div>
+                <div id="item-card">
+                    <div id="card-top">
+                        <i class="fa fa-star" id="rating">8.3</i>
+                        <i class="fa fa-heart-o add-to-cart"></i>
+                        <img src="images/chinese_noodles.jpg" alt="">
+                        <p id="item-name">chinese noodles</p>
+                        <p id="item price">price:Rs.450</p>
+                    </div>
+                </div>
+                <div id="item-card">
+                    <div id="card-top">
+                        <i class="fa fa-star" id="rating">8.3</i>
+                        <i class="fa fa-heart-o add-to-cart"></i>
+                        <img src="images/cilantro chinese cuisine.jpg" alt="">
+                        <p id="item-name">chinese cuisine</p>
+                        <p id="item price">price:Rs.450</p>
+                    </div>
+                </div>
+                <div id="item-card">
+                    <div id="card-top">
+                        <i class="fa fa-star" id="rating">8.3</i>
+                        <i class="fa fa-heart-o add-to-cart"></i>
+                        <img src="images/egg roll.jpg" alt="">
+                        <p id="item-name">egg roll</p>
+                        <p id="item price">price:Rs.450</p>
+                    </div>
+                </div>
+                <div id="item-card">
+                    <div id="card-top">
+                        <i class="fa fa-star" id="rating">8.3</i>
+                        <i class="fa fa-heart-o add-to-cart"></i>
+                        <img src="images/hatch-chile-smash-burgers.jpg" alt="">
+                        <p id="item-name">Smashed chileburger</p>
+                        <p id="item price">price:Rs.450</p>
+                    </div>
+                </div>
+                <div id="item-card">
+                    <div id="card-top">
+                        <i class="fa fa-star" id="rating">8.3</i>
+                        <i class="fa fa-heart-o add-to-cart"></i>
+                        <img src="images/kolkata kati rolls.jpg" alt="">
+                        <p id="item-name">kati rolls</p>
+                        <p id="item price">price:Rs.450</p>
+                    </div>
+                </div>
+                <div id="item-card">
+                    <div id="card-top">
+                        <i class="fa fa-star" id="rating">8.3</i>
+                        <i class="fa fa-heart-o add-to-cart"></i>
+                        <img src="images/pasta.jpg" alt="">
+                        <p id="item-name">chille pasta</p>
+                        <p id="item price">price:Rs.450</p>
+                    </div>
+                </div>
+                <div id="item-card">
+                    <div id="card-top">
+                        <i class="fa fa-star" id="rating">8.3</i>
+                        <i class="fa fa-heart-o add-to-cart"></i>
+                        <img src="images/momos.jpg" alt="">
+                        <p id="item-name">Momos</p>
+                        <p id="item price">price:Rs.450</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="South-indian">
+                <p id="category-name">South-indian Foods</p>
+                <div id="item-card">
+                    <div id="card-top">
+                        <i class="fa fa-star" id="rating">8.3</i>
+                        <i class="fa fa-heart-o add-to-cart"></i>
+                        <img src="images/idli.jpg" alt="">
+                        <p id="item-name">idly sambar</p>
+                        <p id="item price">price:Rs.450</p>
+                    </div>
+                </div>
+                <div id="item-card">
+                    <div id="card-top">
+                        <i class="fa fa-star" id="rating">8.3</i>
+                        <i class="fa fa-heart-o add-to-cart"></i>
+                        <img src="images/masala dosa.jpg" alt="">
+                        <p id="item-name">Masala dosa</p>
+                        <p id="item price">price:Rs.450</p>
+                    </div>
+                </div>
+                <div id="item-card">
+                    <div id="card-top">
+                        <i class="fa fa-star" id="rating">8.3</i>
+                        <i class="fa fa-heart-o add-to-cart"></i>
+                        <img src="images/paratha.jpg" alt="">
+                        <p id="item-name">Paratha</p>
+                        <p id="item price">price:Rs.450</p>
+                    </div>
+                </div>
+                <div id="item-card">
+                    <div id="card-top">
+                        <i class="fa fa-star" id="rating">8.3</i>
+                        <i class="fa fa-heart-o add-to-cart"></i>
+                        <img src="images/pulihora.jpg" alt="">
+                        <p id="item-name">Pulihora</p>
+                        <p id="item price">price:Rs.450</p>
+                    </div>
+                </div>
+                <div id="item-card">
+                    <div id="card-top">
+                        <i class="fa fa-star" id="rating">8.3</i>
+                        <i class="fa fa-heart-o add-to-cart"></i>
+                        <img src="images/south indian meals.jpg" alt="">
+                        <p id="item-name">Meals</p>
+                        <p id="item price">price:Rs.450</p>
+                    </div>
+                </div>
+            </div>
+            <div id="Sweets">
+                <p id="category-name">Sweets</p>
+                <div id="item-card">
+                    <div id="card-top">
+                        <i class="fa fa-star" id="rating">8.3</i>
+                        <i class="fa fa-heart-o add-to-cart"></i>
+                        <img src="images/Bengali-Sweets-Bengali-Rasgulla.jpg" alt="">
+                        <p id="item-name">bengali rasugulla</p>
+                        <p id="item price">price:Rs.450</p>
+                    </div>
+                </div>
+                <div id="item-card">
+                    <div id="card-top">
+                        <i class="fa fa-star" id="rating">8.3</i>
+                        <i class="fa fa-heart-o add-to-cart"></i>
+                        <img src="images/kajukatle.jpg" alt="">
+                        <p id="item-name">kajukatle</p>
+                        <p id="item price">price:Rs.450</p>
+                    </div>
+                </div>
+                <div id="item-card">
+                    <div id="card-top">
+                        <i class="fa fa-star" id="rating">8.3</i>
+                        <i class="fa fa-heart-o add-to-cart"></i>
+                        <img src="images/mixed-indian-sweets.jpg" alt="">
+                        <p id="item-name">mixed sweets</p>
+                        <p id="item price">price:Rs.450</p>
+                    </div>
+                </div>
+                <div id="item-card">
+                    <div id="card-top">
+                        <i class="fa fa-star" id="rating">8.3</i>
+                        <i class="fa fa-heart-o add-to-cart"></i>
+                        <img src="images/kova.jpg" alt="">
+                        <p id="item-name">kova</p>
+                        <p id="item price">price:Rs.450</p>
+                    </div>
+                </div>
+            </div>
+            <div id="Icecreams and smoothie">
+                <p id="Icecreams and smoothie"></p>
+                <div id="item-card">
+                    <div id="card-top">
+                        <i class="fa fa-star" id="rating">8.3</i>
+                        <i class="fa fa-heart-o add-to-cart"></i>
+                        <img src="images/icecreamsandwith milkshake.jpg" alt="">
+                        <p id="item-name">icecreamsandwith milkshake</p>
+                        <p id="item price">price:Rs.450</p>
+                    </div>
+                </div> 
+                <div id="item-card">
+                    <div id="card-top">
+                        <i class="fa fa-star" id="rating">8.3</i>
+                        <i class="fa fa-heart-o add-to-cart"></i>
+                        <img src="images/mango-smoothies-with-vanilla-ice-cream.jpg" alt="">
+                        <p id="item-name">mango-smoothiee with vanilla</p>
+                        <p id="item price">price:Rs.450</p>
+                    </div>
+                </div> 
+                <div id="item-card">
+                    <div id="card-top">
+                        <i class="fa fa-star" id="rating">8.3</i>
+                        <i class="fa fa-heart-o add-to-cart"></i>
+                        <img src="images/mixed berryshake.jpg" alt="">
+                        <p id="item-name">mixed berryshake</p>
+                        <p id="item price">price:Rs.450</p>
+                    </div>
+                </div> 
+                <div id="item-card">
+                    <div id="card-top">
+                        <i class="fa fa-star" id="rating">8.3</i>
+                        <i class="fa fa-heart-o add-to-cart"></i>
+                        <img src="images/unicorn smoothie.jpg" alt="">
+                        <p id="item-name">unicorn smoothiee</p>
+                        <p id="item price">price:Rs.450</p>
+                    </div>
+                </div> 
+                <div id="item-card">
+                    <div id="card-top">
+                        <i class="fa fa-star" id="rating">8.3</i>
+                        <i class="fa fa-heart-o add-to-cart"></i>
+                        <img src="images/peanut banana icecream smoothie.jpg" alt="">
+                        <p id="item-name">peanut banana icecream smoothie</p>
+                        <p id="item price">price:Rs.450</p>
+                    </div>
+                </div> 
+            </div>
+        </div>
+
+    <div class="owl-carousel owl-theme">
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+    </div>
+
+    <!-- bootstrap js -->
+    <script src="<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+     crossorigin="anonymous"></script>
+        </div>
+        </div>
+        </div>
+        </body>
+        </html>
+
+                
+                
+    
+    
+        
